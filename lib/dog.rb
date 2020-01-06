@@ -45,12 +45,10 @@ class Person
     # self.class is Person
     # self.class.all == Person.all
     self.class.all << self
-    puts self
-    puts self.class
-    puts self.class.all
   end
 
   def self.all
+    puts "here"
     @@people
   end
 
