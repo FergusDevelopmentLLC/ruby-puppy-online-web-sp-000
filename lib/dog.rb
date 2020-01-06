@@ -41,13 +41,13 @@ class Person
 
   def initialize(name)
     @name = name
-    puts self
-    puts self.class
-    puts self.class.all
     # self in the initialize method is our new instance
     # self.class is Person
     # self.class.all == Person.all
     self.class.all << self
+    puts self
+    puts self.class
+    puts self.class.all
   end
 
   def self.all
