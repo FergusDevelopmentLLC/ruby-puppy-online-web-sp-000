@@ -42,6 +42,7 @@ class Person
   def initialize(name)
     @name = name
     puts self
+    puts self.class
     # self in the initialize method is our new instance
     # self.class is Person
     # self.class.all == Person.all
