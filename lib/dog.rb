@@ -61,3 +61,5 @@ class Person
 end
 
 Person.new("Maddy")
+Person.new("Maddy")
+Person.new("Maddy")
